@@ -27,7 +27,7 @@ const LogsQueryEditor: React.FC<LogsQueryEditorProps> = ({
 }) => {
   return (
     <div data-testid="azure-monitor-logs-query-editor">
-      <Modal title="Select a resource" isOpen={true}>
+      <Modal title="Select a resource" isOpen={false}>
         <ResourcePicker />
       </Modal>
 
